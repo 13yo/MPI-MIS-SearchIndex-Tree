@@ -12,8 +12,12 @@ C:\Users\tobias\Documents\workspace\MISTree\target\classes
 C:\Users\tobias\Documents\workspace\MISTree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\config\NeoConfig.java
 C:\Users\tobias\Documents\workspace\MISTree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\Boot.java
 C:\Users\tobias\Documents\workspace\MISTree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\types\DomainObjectType.java
+C:\Users\tobias\Documents\workspace\MISTree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\Position.java
 C:\Users\tobias\Documents\workspace\MISTree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\IndexNode.java
+C:\Users\tobias\Documents\workspace\MISTree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\DBSet.java
 C:\Users\tobias\Documents\workspace\MISTree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\Char.java
+C:\Users\tobias\Documents\workspace\MISTree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\types\RelationshipTypes.java
+C:\Users\tobias\Documents\workspace\MISTree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\DomainObject.java
 C:\Users\tobias\Documents\workspace\MISTree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\types\PositionType.java
 C:\Users\tobias\Documents\workspace\MISTree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\Tree.java
 C:\Users\tobias\Documents\workspace\MISTree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\Blatt.java

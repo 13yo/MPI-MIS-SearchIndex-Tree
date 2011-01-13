@@ -2,6 +2,6 @@ package de.mpg.mis.neuesbibliothekssystem.misTree.domain.types;
 
 public enum RelationshipTypes {
 	
-	CHILD, PARENT
+	CHILD, PARENT, POSITION, DOMAIN_OBJECT, SET
 
 }
