@@ -39,6 +39,10 @@ public class Start {
 	    for (Relationship rel : n.getRelationships()) {
 		System.out.println(rel.getType());
 	    }
+
+	    for (String key : n.getPropertyKeys()) {
+		System.out.print(key + ":" + n.getProperty(key) + " +++");
+	    }
 	}
     }
 

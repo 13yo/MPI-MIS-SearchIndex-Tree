@@ -1,5 +1,6 @@
 package de.mpg.mis.neuesbibliothekssystem.misTree.helper;
 
+import org.neo4j.graphdb.DynamicRelationshipType;
 import org.neo4j.graphdb.Node;
 import org.neo4j.graphdb.Path;
 import org.neo4j.graphdb.traversal.TraversalDescription;
@@ -39,6 +40,14 @@ public class TreeHelperImpl implements TreeHelper {
     public TraversalDescription buildTraversal() {
 
 	return Traversal.description().depthFirst()
-		.filter(Traversal.returnAllButStartNode());
+		.filter(new Predicate<Path>() {
+		    public boolean accept(Path item) {
+			return (item.length() > 0 && item
+				.endNode()
+				.hasRelationship(
+					DynamicRelationshipType
+						.withName("SUBREF_de.mpg.mis.neuesbibliothekssystem.misTree.domain.DBSet")));
+		    }
+		});
     }
 }
