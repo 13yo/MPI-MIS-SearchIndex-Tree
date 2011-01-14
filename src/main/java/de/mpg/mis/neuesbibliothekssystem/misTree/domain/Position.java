@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.PositionType;
 
 @NodeEntity
-public class Position extends Tree<Integer> {
+public class Position extends DomainObjectAwareTree<Integer> {
 
     public Position(Integer value, PositionType type) {
 	this.value = value;
@@ -30,9 +30,6 @@ public class Position extends Tree<Integer> {
     @RelatedTo(type = "CHILD", elementClass = Position.class, direction = Direction.OUTGOING)
     private Set<Position> childPositions;
 
-    @RelatedTo(type = "CHILD", elementClass = DomainObject.class, direction = Direction.OUTGOING)
-    private Set<DomainObject> domainObjects;
-
     @RelatedTo(type = "SET", elementClass = DBSet.class, direction = Direction.OUTGOING)
     private Set<DBSet> sets;
 
@@ -40,17 +37,6 @@ public class Position extends Tree<Integer> {
     @Transactional
     public Set<Position> getChildren() {
 	return this.childPositions;
-    }
-
-    @Transactional
-    public Set<DomainObject> getDomainObjects() {
-	return this.domainObjects;
-    }
-
-    @Override
-    @Transactional
-    public Set<DBSet> getSets() {
-	return this.sets;
     }
 
     @Override

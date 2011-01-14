@@ -10,7 +10,7 @@ import org.springframework.data.graph.core.NodeBacked;
 import org.springframework.data.graph.core.RelationshipBacked;
 import org.springframework.transaction.annotation.Transactional;
 
-import de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.RelationshipTypes;
+import de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.RelationshipType;
 
 @NodeEntity
 public class Root extends Tree<Character> {
@@ -50,7 +50,7 @@ public class Root extends Tree<Character> {
 	if (child == null) {
 	    child = new Char(c);
 	    this.getUnderlyingState().createRelationshipTo(
-		    child.getUnderlyingState(), RelationshipTypes.CHILD);
+		    child.getUnderlyingState(), RelationshipType.CHILD);
 	}
 	return child;
     }

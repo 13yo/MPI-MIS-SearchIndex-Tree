@@ -17,6 +17,7 @@ C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\m
 C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\types\DomainObjectType.java
 C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\Start.java
 C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\config\NeoConfig.java
+C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\DomainObjectAwareTree.java
 C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\Char.java
 C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\helper\TreeHelper.java
 C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\DBSet.java
@@ -27,4 +28,4 @@ C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\m
 C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\Boot.java
 C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\Root.java
 C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\Leaf.java
-C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\types\RelationshipTypes.java
+C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\types\RelationshipType.java

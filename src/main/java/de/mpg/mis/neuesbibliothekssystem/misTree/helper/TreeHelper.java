@@ -5,6 +5,6 @@ import de.mpg.mis.neuesbibliothekssystem.misTree.domain.Tree;
 
 public interface TreeHelper {
 
-    public <T extends Object> Tree<T> findDirectChild(T o, Tree tree);
+    public <T extends Object> Tree<T> findDirectChild(T o, Tree<T> tree);
 
 }

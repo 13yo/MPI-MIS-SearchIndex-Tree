@@ -6,7 +6,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char;
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.Root;
-import de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.RelationshipTypes;
+import de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.RelationshipType;
 import de.mpg.mis.neuesbibliothekssystem.misTree.helper.TreeHelper;
 
 public class Start {
@@ -35,7 +35,7 @@ public class Start {
 	// System.out.println(b.getUnderlyingState());
 	// System.out.println(root.getUnderlyingState());
 	root.getUnderlyingState().createRelationshipTo(b.getUnderlyingState(),
-		RelationshipTypes.CHILD);
+		RelationshipType.CHILD);
 
 	return b;
     }
