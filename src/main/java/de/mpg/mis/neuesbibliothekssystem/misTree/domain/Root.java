@@ -2,12 +2,10 @@ package de.mpg.mis.neuesbibliothekssystem.misTree.domain;
 
 import java.util.Set;
 
-import org.neo4j.graphdb.traversal.TraversalDescription;
+import org.springframework.data.graph.annotation.GraphId;
 import org.springframework.data.graph.annotation.NodeEntity;
 import org.springframework.data.graph.annotation.RelatedTo;
 import org.springframework.data.graph.core.Direction;
-import org.springframework.data.graph.core.NodeBacked;
-import org.springframework.data.graph.core.RelationshipBacked;
 import org.springframework.transaction.annotation.Transactional;
 
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.stereotypes.CharAware;
@@ -15,6 +13,13 @@ import de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.RelationshipType;
 
 @NodeEntity
 public class Root extends Tree<Character> implements CharAware {
+
+    @GraphId
+    private Long graphId;
+
+    public Long getId() {
+	return this.graphId;
+    }
 
     // @GraphProperty(index = true)
     private Character value = new Character(' ');

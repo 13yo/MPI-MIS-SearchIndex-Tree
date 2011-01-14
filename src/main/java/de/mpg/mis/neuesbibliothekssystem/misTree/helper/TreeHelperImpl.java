@@ -1,6 +1,6 @@
 package de.mpg.mis.neuesbibliothekssystem.misTree.helper;
 
-import org.neo4j.graphdb.DynamicRelationshipType;
+import org.neo4j.graphdb.Direction;
 import org.neo4j.graphdb.Node;
 import org.neo4j.graphdb.Path;
 import org.neo4j.graphdb.traversal.TraversalDescription;
@@ -12,7 +12,6 @@ import org.springframework.data.graph.neo4j.finder.FinderFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char;
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.Tree;
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.RelationshipType;
 
@@ -37,16 +36,15 @@ public class TreeHelperImpl implements TreeHelper {
 	return finderFactory.getFinderForClass(type).findById(node.getId());
     }
 
-    public TraversalDescription buildTraversal() {
+    public TraversalDescription buildSetTraversal() {
 
 	return Traversal.description().depthFirst()
 		.filter(new Predicate<Path>() {
 		    public boolean accept(Path item) {
-			return (item.length() > 0 && item
-				.endNode()
-				.hasRelationship(
-					DynamicRelationshipType
-						.withName("SUBREF_de.mpg.mis.neuesbibliothekssystem.misTree.domain.DBSet")));
+			// return (item.length() > 0);
+			return (item.length() > 0 && item.endNode()
+				.hasRelationship(RelationshipType.SET,
+					Direction.INCOMING));
 		    }
 		});
     }
