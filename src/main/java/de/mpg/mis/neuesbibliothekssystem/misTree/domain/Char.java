@@ -11,11 +11,15 @@ import org.springframework.transaction.annotation.Transactional;
 
 import org.neo4j.graphdb.Node;
 
+import de.mpg.mis.neuesbibliothekssystem.misTree.domain.stereotypes.CharAware;
+import de.mpg.mis.neuesbibliothekssystem.misTree.domain.stereotypes.DomainObjectAware;
+import de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.DomainObjectType;
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.PositionType;
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.RelationshipType;
 
 @NodeEntity
-public class Char extends DomainObjectAwareTree<Character> {
+public class Char extends Tree<Character> implements CharAware,
+	DomainObjectAware {
 
     public Char(Character value) {
 	this.value = value;
@@ -33,6 +37,17 @@ public class Char extends DomainObjectAwareTree<Character> {
 
     @RelatedTo(type = "POSITION", elementClass = Position.class, direction = Direction.OUTGOING)
     private Set<Position> positions;
+
+    @RelatedTo(type = "DOMAIN_OBJECT", elementClass = DomainObject.class, direction = Direction.OUTGOING)
+    private Set<DomainObject> domainObjects;
+
+    @RelatedTo(type = "SET", elementClass = DBSet.class, direction = Direction.OUTGOING)
+    private Set<DBSet> sets;
+
+    @Transactional
+    public Set<DBSet> getSets() {
+	return this.sets;
+    }
 
     @Override
     public Character getValue() {
@@ -57,7 +72,7 @@ public class Char extends DomainObjectAwareTree<Character> {
 	for (int i = 0; i < positions.length; i++) {
 	    p = new Position(positions[i], PositionType.values()[i]);
 	    tree.getUnderlyingState().createRelationshipTo(
-		    p.getUnderlyingState(), RelationshipType.CHILD);
+		    p.getUnderlyingState(), RelationshipType.POSITION);
 	    tree = p;
 	}
 
@@ -82,6 +97,27 @@ public class Char extends DomainObjectAwareTree<Character> {
 		    child.getUnderlyingState(), RelationshipType.CHILD);
 	}
 	return child;
+    }
+
+    @Override
+    @Transactional
+    public Set<DomainObject> getDomainObjects() {
+	return this.domainObjects;
+    }
+
+    @Override
+    @Transactional
+    public DomainObject addDomainObjects(Long... domainObjects) {
+	DomainObject o = null;
+	NodeBacked tree = (NodeBacked) this;
+	for (int i = 0; i < domainObjects.length; i++) {
+	    o = new DomainObject(domainObjects[i], DomainObjectType.values()[i]);
+	    tree.getUnderlyingState().createRelationshipTo(
+		    o.getUnderlyingState(), RelationshipType.DOMAIN_OBJECT);
+	    tree = (NodeBacked) o;
+	}
+
+	return o;
     }
 
 }

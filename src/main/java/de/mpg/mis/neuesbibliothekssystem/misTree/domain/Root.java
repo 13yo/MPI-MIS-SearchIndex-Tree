@@ -10,10 +10,11 @@ import org.springframework.data.graph.core.NodeBacked;
 import org.springframework.data.graph.core.RelationshipBacked;
 import org.springframework.transaction.annotation.Transactional;
 
+import de.mpg.mis.neuesbibliothekssystem.misTree.domain.stereotypes.CharAware;
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.RelationshipType;
 
 @NodeEntity
-public class Root extends Tree<Character> {
+public class Root extends Tree<Character> implements CharAware {
 
     // @GraphProperty(index = true)
     private Character value = new Character(' ');
@@ -62,6 +63,10 @@ public class Root extends Tree<Character> {
 		return child;
 	}
 	return null;
+    }
+
+    public String toString() {
+	return "-+=ROOT-Node=+-";
     }
 
 }

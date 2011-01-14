@@ -1,6 +1,10 @@
 package de.mpg.mis.neuesbibliothekssystem.misTree.helper;
 
 import org.neo4j.graphdb.Node;
+import org.neo4j.graphdb.Path;
+import org.neo4j.graphdb.traversal.TraversalDescription;
+import org.neo4j.helpers.Predicate;
+import org.neo4j.kernel.Traversal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.graph.core.NodeBacked;
 import org.springframework.data.graph.neo4j.finder.FinderFactory;
@@ -9,6 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char;
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.Tree;
+import de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.RelationshipType;
 
 @Service
 public class TreeHelperImpl implements TreeHelper {
@@ -31,4 +36,9 @@ public class TreeHelperImpl implements TreeHelper {
 	return finderFactory.getFinderForClass(type).findById(node.getId());
     }
 
+    public TraversalDescription buildTraversal() {
+
+	return Traversal.description().depthFirst()
+		.filter(Traversal.returnAllButStartNode());
+    }
 }

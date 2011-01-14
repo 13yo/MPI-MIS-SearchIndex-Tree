@@ -17,6 +17,9 @@ public class DBSet extends Leaf<Long> {
 	this.value = value;
     }
 
+    public DBSet() {
+    }
+
     // @GraphProperty(index = true)
     @Indexed
     private Long value;

@@ -1,5 +1,8 @@
 package de.mpg.mis.neuesbibliothekssystem.misTree;
 
+import org.neo4j.graphdb.Node;
+import org.neo4j.graphdb.Path;
+import org.neo4j.graphdb.Relationship;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.graph.core.NodeBacked;
 import org.springframework.transaction.annotation.Transactional;
@@ -11,33 +14,32 @@ import de.mpg.mis.neuesbibliothekssystem.misTree.helper.TreeHelper;
 
 public class Start {
 
-    // @Autowired
-    // private TreeHelper treeHelper;
+    @Autowired
+    private TreeHelper treeHelper;
 
     @Transactional
     public void demo() {
 	Root r = new Root();
 
-	newBuchstabe(r, 'a');
+	r.addChar('a').addChar('b').addPosition(1, 1)
+		.addDomainObjects(1l, 1l, 1l, 1l, 1l).addSet(1l);
+	r.addChar('b');
+	r.addChar('a').addChar('b').addChar('c');
 
 	System.out.println(r.getChildren().size());
 	for (Char c : r.getChildren()) {
 	    System.out.println(c.getValue());
 	}
-    }
 
-    @Transactional
-    public Char newBuchstabe(NodeBacked root, Character c) {
-	Char b = new Char(c);
-
-	// b.getUnderlyingState().createRelationshipTo(root.getUnderlyingState(),
-	// BezTyp.VATER);
-	// System.out.println(b.getUnderlyingState());
-	// System.out.println(root.getUnderlyingState());
-	root.getUnderlyingState().createRelationshipTo(b.getUnderlyingState(),
-		RelationshipType.CHILD);
-
-	return b;
+	for (Path p : treeHelper.buildTraversal().traverse(
+		r.getUnderlyingState())) {
+	    Node n = p.endNode();
+	    if (n.hasProperty("value"))
+		System.out.println(n.getProperty("value"));
+	    for (Relationship rel : n.getRelationships()) {
+		System.out.println(rel.getType());
+	    }
+	}
     }
 
 }

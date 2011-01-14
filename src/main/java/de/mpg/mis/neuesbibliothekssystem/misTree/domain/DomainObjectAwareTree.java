@@ -7,18 +7,14 @@ import org.springframework.data.graph.core.Direction;
 import org.springframework.data.graph.core.NodeBacked;
 import org.springframework.transaction.annotation.Transactional;
 
+import de.mpg.mis.neuesbibliothekssystem.misTree.domain.stereotypes.DomainObjectAware;
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.DomainObjectType;
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.RelationshipType;
 
-public abstract class DomainObjectAwareTree<T> extends Tree<T> {
+public abstract class DomainObjectAwareTree<T> extends Tree<T> implements
+	DomainObjectAware {
 
-    @RelatedTo(type = "DOMAIN_OBJECT", elementClass = DomainObject.class, direction = Direction.OUTGOING)
-    private Set<Char> domainObjects;
-
-    @Transactional
-    public Set<Char> getDomainObjects() {
-	return this.domainObjects;
-    }
+    public abstract Set<DomainObject> getDomainObjects();
 
     @Transactional
     public DomainObject addDomainObjects(Long... domainObjects) {
@@ -27,8 +23,8 @@ public abstract class DomainObjectAwareTree<T> extends Tree<T> {
 	for (int i = 0; i < domainObjects.length; i++) {
 	    o = new DomainObject(domainObjects[i], DomainObjectType.values()[i]);
 	    tree.getUnderlyingState().createRelationshipTo(
-		    o.getUnderlyingState(), RelationshipType.CHILD);
-	    tree = o;
+		    o.getUnderlyingState(), RelationshipType.DOMAIN_OBJECT);
+	    tree = (NodeBacked) o;
 	}
 
 	return o;

@@ -19,6 +19,9 @@ public class DomainObject extends Tree<Long> {
 	this.type = type;
     }
 
+    public DomainObject() {
+    }
+
     // @GraphProperty(index = true)
     @Indexed
     private Long value;

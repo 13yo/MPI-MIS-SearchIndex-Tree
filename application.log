@@ -1,0 +1,206 @@
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'neo4jRelationshipBacking'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'neoConfig'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'graphDatabaseContext'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'finderFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'neo4jRelationshipBacking' via factory method to bean named 'graphDatabaseContext'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'neo4jRelationshipBacking' via factory method to bean named 'finderFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'neo4jRelationshipBacking' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'neo4jRelationshipBacking'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'neo4jNeo4jNodeBacking'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'neo4jNeo4jNodeBacking'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'neoConfig'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'graphDatabaseContext'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'finderFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'neo4jNeo4jNodeBacking' via factory method to bean named 'graphDatabaseContext'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'neo4jNeo4jNodeBacking' via factory method to bean named 'finderFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'neo4jNeo4jNodeBacking' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'neo4jNeo4jNodeBacking'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'transactionManager'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'neoConfig'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'graphDatabaseService'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'transactionManager' via factory method to bean named 'graphDatabaseService'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'transactionManager'
+INFO main org.springframework.transaction.jta.JtaTransactionManager - Using JTA UserTransaction: org.neo4j.kernel.impl.transaction.UserTransactionImpl@b3f9b8
+INFO main org.springframework.transaction.jta.JtaTransactionManager - Using JTA TransactionManager: org.neo4j.kernel.impl.transaction.SpringTransactionManager@1cfb802
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'transactionManager'
+DEBUG main org.springframework.context.support.ClassPathXmlApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@aa0877]
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'start'
+DEBUG main org.springframework.transaction.annotation.AnnotationTransactionAttributeSource - Adding transactional method 'demo' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Creating new transaction with name [de.mpg.mis.neuesbibliothekssystem.misTree.Start.demo]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.PropertyFieldAccessorFactory@4845aa used for field: private java.lang.Character de.mpg.mis.neuesbibliothekssystem.misTree.domain.Root.value
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.OneToNRelationshipFieldAccessorFactory@14b6bed used for field: private java.util.Set de.mpg.mis.neuesbibliothekssystem.misTree.domain.Root.children
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.OneToNRelationshipFieldAccessorFactory@14b6bed used for field: private java.util.Set de.mpg.mis.neuesbibliothekssystem.misTree.domain.Root.sets
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.IdFieldAccessorFactory@112da40 used for field: private java.lang.Long de.mpg.mis.neuesbibliothekssystem.misTree.domain.IndexNode.graphId
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.PropertyFieldAccessorFactory@4845aa used for field: static final java.lang.String de.mpg.mis.neuesbibliothekssystem.misTree.domain.IndexNode.NAME_INDEX
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityStateAccessors - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Root; created Node [Node[23]]; Updating metamodel
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[2] with type: de.mpg.mis.neuesbibliothekssystem.misTree.domain.Root
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Tree = 13
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[4] for class IndexNode = 14
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[5] for class Object = 14
+DEBUG main org.springframework.transaction.annotation.AnnotationTransactionAttributeSource - Adding transactional method 'addChar' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.transaction.annotation.AnnotationTransactionAttributeSource - Adding transactional method 'getDirectChildChar' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.PropertyFieldAccessorFactory@4845aa used for field: private java.lang.Character de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char.value
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.OneToNRelationshipFieldAccessorFactory@14b6bed used for field: private java.util.Set de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char.childChars
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.OneToNRelationshipFieldAccessorFactory@14b6bed used for field: private java.util.Set de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char.positions
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.OneToNRelationshipFieldAccessorFactory@14b6bed used for field: private java.util.Set de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char.domainObjects
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.OneToNRelationshipFieldAccessorFactory@14b6bed used for field: private java.util.Set de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char.sets
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.IdFieldAccessorFactory@112da40 used for field: private java.lang.Long de.mpg.mis.neuesbibliothekssystem.misTree.domain.IndexNode.graphId
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.PropertyFieldAccessorFactory@4845aa used for field: static final java.lang.String de.mpg.mis.neuesbibliothekssystem.misTree.domain.IndexNode.NAME_INDEX
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityStateAccessors - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char; created Node [Node[24]]; Updating metamodel
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[7] with type: de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Tree = 14
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[4] for class IndexNode = 15
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[5] for class Object = 15
+DEBUG main org.springframework.transaction.annotation.AnnotationTransactionAttributeSource - Adding transactional method 'addChar' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.transaction.annotation.AnnotationTransactionAttributeSource - Adding transactional method 'getDirectChildChar' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityStateAccessors - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char; created Node [Node[25]]; Updating metamodel
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[7] with type: de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Tree = 15
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[4] for class IndexNode = 16
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[5] for class Object = 16
+DEBUG main org.springframework.transaction.annotation.AnnotationTransactionAttributeSource - Adding transactional method 'addPosition' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.PropertyFieldAccessorFactory@4845aa used for field: private java.lang.Integer de.mpg.mis.neuesbibliothekssystem.misTree.domain.Position.value
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.ConvertingNodePropertyFieldAccessorFactory@8aeed0 used for field: private de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.PositionType de.mpg.mis.neuesbibliothekssystem.misTree.domain.Position.type
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.OneToNRelationshipFieldAccessorFactory@14b6bed used for field: private java.util.Set de.mpg.mis.neuesbibliothekssystem.misTree.domain.Position.domainObjects
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.OneToNRelationshipFieldAccessorFactory@14b6bed used for field: private java.util.Set de.mpg.mis.neuesbibliothekssystem.misTree.domain.Position.childPositions
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.OneToNRelationshipFieldAccessorFactory@14b6bed used for field: private java.util.Set de.mpg.mis.neuesbibliothekssystem.misTree.domain.Position.sets
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.IdFieldAccessorFactory@112da40 used for field: private java.lang.Long de.mpg.mis.neuesbibliothekssystem.misTree.domain.IndexNode.graphId
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.PropertyFieldAccessorFactory@4845aa used for field: static final java.lang.String de.mpg.mis.neuesbibliothekssystem.misTree.domain.IndexNode.NAME_INDEX
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityStateAccessors - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Position; created Node [Node[26]]; Updating metamodel
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[10] with type: de.mpg.mis.neuesbibliothekssystem.misTree.domain.Position
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Tree = 16
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[4] for class IndexNode = 17
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[5] for class Object = 17
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value PARAGRAPH of [TypeDescriptor de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.PositionType] to [TypeDescriptor java.lang.String]
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to 'PARAGRAPH'
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityStateAccessors - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Position; created Node [Node[27]]; Updating metamodel
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[10] with type: de.mpg.mis.neuesbibliothekssystem.misTree.domain.Position
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Tree = 17
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[4] for class IndexNode = 18
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[5] for class Object = 18
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value SCENTENCE of [TypeDescriptor de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.PositionType] to [TypeDescriptor java.lang.String]
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to 'SCENTENCE'
+DEBUG main org.springframework.transaction.annotation.AnnotationTransactionAttributeSource - Adding transactional method 'addDomainObjects' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.PropertyFieldAccessorFactory@4845aa used for field: private java.lang.Long de.mpg.mis.neuesbibliothekssystem.misTree.domain.DomainObject.value
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.ConvertingNodePropertyFieldAccessorFactory@8aeed0 used for field: private de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.DomainObjectType de.mpg.mis.neuesbibliothekssystem.misTree.domain.DomainObject.type
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.OneToNRelationshipFieldAccessorFactory@14b6bed used for field: private java.util.Set de.mpg.mis.neuesbibliothekssystem.misTree.domain.DomainObject.childObjects
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.OneToNRelationshipFieldAccessorFactory@14b6bed used for field: private java.util.Set de.mpg.mis.neuesbibliothekssystem.misTree.domain.DomainObject.sets
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.IdFieldAccessorFactory@112da40 used for field: private java.lang.Long de.mpg.mis.neuesbibliothekssystem.misTree.domain.IndexNode.graphId
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.PropertyFieldAccessorFactory@4845aa used for field: static final java.lang.String de.mpg.mis.neuesbibliothekssystem.misTree.domain.IndexNode.NAME_INDEX
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityStateAccessors - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.misTree.domain.DomainObject; created Node [Node[28]]; Updating metamodel
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[13] with type: de.mpg.mis.neuesbibliothekssystem.misTree.domain.DomainObject
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Tree = 18
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[4] for class IndexNode = 19
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[5] for class Object = 19
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value ID of [TypeDescriptor de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.DomainObjectType] to [TypeDescriptor java.lang.String]
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to 'ID'
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityStateAccessors - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.misTree.domain.DomainObject; created Node [Node[29]]; Updating metamodel
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[13] with type: de.mpg.mis.neuesbibliothekssystem.misTree.domain.DomainObject
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Tree = 19
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[4] for class IndexNode = 20
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[5] for class Object = 20
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value SD of [TypeDescriptor de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.DomainObjectType] to [TypeDescriptor java.lang.String]
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to 'SD'
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityStateAccessors - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.misTree.domain.DomainObject; created Node [Node[30]]; Updating metamodel
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[13] with type: de.mpg.mis.neuesbibliothekssystem.misTree.domain.DomainObject
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Tree = 20
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[4] for class IndexNode = 21
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[5] for class Object = 21
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value IG of [TypeDescriptor de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.DomainObjectType] to [TypeDescriptor java.lang.String]
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to 'IG'
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityStateAccessors - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.misTree.domain.DomainObject; created Node [Node[31]]; Updating metamodel
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[13] with type: de.mpg.mis.neuesbibliothekssystem.misTree.domain.DomainObject
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Tree = 21
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[4] for class IndexNode = 22
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[5] for class Object = 22
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value SG of [TypeDescriptor de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.DomainObjectType] to [TypeDescriptor java.lang.String]
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to 'SG'
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityStateAccessors - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.misTree.domain.DomainObject; created Node [Node[32]]; Updating metamodel
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[13] with type: de.mpg.mis.neuesbibliothekssystem.misTree.domain.DomainObject
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Tree = 22
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[4] for class IndexNode = 23
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[5] for class Object = 23
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value F of [TypeDescriptor de.mpg.mis.neuesbibliothekssystem.misTree.domain.types.DomainObjectType] to [TypeDescriptor java.lang.String]
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to 'F'
+DEBUG main org.springframework.transaction.annotation.AnnotationTransactionAttributeSource - Adding transactional method 'addSet' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.transaction.annotation.AnnotationTransactionAttributeSource - Adding transactional method 'getDBSet' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.transaction.annotation.AnnotationTransactionAttributeSource - Adding transactional method 'getSets' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.PropertyFieldAccessorFactory@4845aa used for field: private java.lang.Long de.mpg.mis.neuesbibliothekssystem.misTree.domain.DBSet.value
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - No FieldAccessor configured for field: private java.util.Set de.mpg.mis.neuesbibliothekssystem.misTree.domain.DBSet.parentNodes
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.IdFieldAccessorFactory@112da40 used for field: private java.lang.Long de.mpg.mis.neuesbibliothekssystem.misTree.domain.IndexNode.graphId
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DelegatingFieldAccessorFactory - Factory org.springframework.data.graph.neo4j.fieldaccess.PropertyFieldAccessorFactory@4845aa used for field: static final java.lang.String de.mpg.mis.neuesbibliothekssystem.misTree.domain.IndexNode.NAME_INDEX
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityStateAccessors - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.misTree.domain.DBSet; created Node [Node[33]]; Updating metamodel
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[19] with type: de.mpg.mis.neuesbibliothekssystem.misTree.domain.DBSet
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[20] for class Leaf = 2
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[4] for class IndexNode = 24
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[5] for class Object = 24
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[24]
+INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityStateAccessors - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char; created Node [Node[34]]; Updating metamodel
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[7] with type: de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Tree = 23
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[4] for class IndexNode = 25
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[5] for class Object = 25
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[34]
+INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[24]
+INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[25]
+INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityStateAccessors - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char; created Node [Node[35]]; Updating metamodel
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[7] with type: de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Tree = 24
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[4] for class IndexNode = 26
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[5] for class Object = 26
+DEBUG main org.springframework.transaction.annotation.AnnotationTransactionAttributeSource - Adding transactional method 'getChildren' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[34]
+INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[24]
+INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[34]
+INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[24]
+INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Initiating transaction commit

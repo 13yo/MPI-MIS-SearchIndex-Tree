@@ -22,10 +22,12 @@ C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\m
 C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\helper\TreeHelper.java
 C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\DBSet.java
 C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\Position.java
+C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\stereotypes\CharAware.java
 C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\IndexNode.java
 C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\helper\TreeBuilder.java
 C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\DomainObject.java
 C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\Boot.java
 C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\Root.java
+C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\stereotypes\DomainObjectAware.java
 C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\Leaf.java
 C:\Dokumente und Einstellungen\kaatz\MPI-MIS-SearchIndex-Tree\src\main\java\de\mpg\mis\neuesbibliothekssystem\misTree\domain\types\RelationshipType.java
