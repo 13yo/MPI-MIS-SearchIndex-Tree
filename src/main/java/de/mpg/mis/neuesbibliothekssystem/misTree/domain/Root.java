@@ -54,10 +54,16 @@ public class Root extends Tree<Character> implements CharAware {
     public Char addChar(Character c) {
 	Char child = this.getDirectChildChar(c);
 	if (child == null) {
-	    child = new Char(c);
-	    this.getUnderlyingState().createRelationshipTo(
-		    child.getUnderlyingState(), RelationshipType.CHILD);
+	    child = this.addCharSimple(c);
 	}
+	return child;
+    }
+
+    @Transactional
+    public Char addCharSimple(Character c) {
+	Char child = new Char(c);
+	this.getUnderlyingState().createRelationshipTo(
+		child.getUnderlyingState(), RelationshipType.CHILD);
 	return child;
     }
 

@@ -8,6 +8,8 @@ public interface CharAware {
 
     public Char addChar(Character c);
 
+    public Char addCharSimple(Character c);
+
     public Char getDirectChildChar(Character c);
 
     public Set<Char> getChildren();

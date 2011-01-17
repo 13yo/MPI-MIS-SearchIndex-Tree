@@ -6,6 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.graph.neo4j.finder.FinderFactory;
 import org.springframework.transaction.annotation.Transactional;
 
+import org.neo4j.graphdb.Path;
+import org.neo4j.graphdb.Node;
+import org.neo4j.graphdb.Relationship;
+import org.neo4j.graphdb.Direction;
+
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.Root;
 import de.mpg.mis.neuesbibliothekssystem.misTree.helper.Permutation;
 import de.mpg.mis.neuesbibliothekssystem.misTree.helper.TreeHelper;
@@ -37,8 +42,7 @@ public class Start {
 	// String s = "abcdef";
 	// String s = "abcdefg";
 	// String s = "abcdefgh";
-	String s = "abcdefghij";
-
+	String s = "abcdefgh";
 	permutation.perm1(s, r);
 
 	// r.addChar('a').addChar('b').addPosition(1, 1)
@@ -53,7 +57,7 @@ public class Start {
 	// for (DBSet s : result) {
 	// System.out.println(s.getId() + ":" + s.getValue());
 	// }
-
+	//
 	// for (Path p : treeHelper.buildSetTraversal().traverse(
 	// r.getUnderlyingState())) {
 	// Node n = p.endNode();

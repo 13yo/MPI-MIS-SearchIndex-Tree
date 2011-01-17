@@ -42,9 +42,7 @@ public class TreeHelperImpl implements TreeHelper {
 		.filter(new Predicate<Path>() {
 		    public boolean accept(Path item) {
 			// return (item.length() > 0);
-			return (item.length() > 0 && item.endNode()
-				.hasRelationship(RelationshipType.SET,
-					Direction.INCOMING));
+			return (item.length() > 0);
 		    }
 		});
     }

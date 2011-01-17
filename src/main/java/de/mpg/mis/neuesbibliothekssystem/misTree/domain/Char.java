@@ -7,6 +7,7 @@ import org.springframework.data.graph.annotation.NodeEntity;
 import org.springframework.data.graph.annotation.RelatedTo;
 import org.springframework.data.graph.core.Direction;
 import org.springframework.data.graph.core.NodeBacked;
+import org.springframework.data.annotation.Indexed;
 import org.springframework.transaction.annotation.Transactional;
 
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.stereotypes.CharAware;
@@ -21,6 +22,12 @@ public class Char extends Tree<Character> implements CharAware,
 
     public Char(Character value) {
 	this.value = value;
+	this.wordIndex = value.toString();
+    }
+
+    public Char(Character value, String wordIndex) {
+	this.value = value;
+	this.wordIndex = wordIndex;
     }
 
     public Char() {
@@ -36,6 +43,9 @@ public class Char extends Tree<Character> implements CharAware,
 
     // @GraphProperty(index = true)
     private Character value;
+
+    @Indexed
+    private String wordIndex;
 
     @RelatedTo(type = "CHILD", elementClass = Char.class, direction = Direction.OUTGOING)
     private Set<Char> childChars;
@@ -87,6 +97,7 @@ public class Char extends Tree<Character> implements CharAware,
     @Transactional
     public Char getDirectChildChar(Character c) {
 	for (Char child : this.childChars) {
+	    // System.out.println(child.getValue());
 	    if (child.getValue().equals(c))
 		return child;
 	}
@@ -97,10 +108,16 @@ public class Char extends Tree<Character> implements CharAware,
     public Char addChar(Character c) {
 	Char child = this.getDirectChildChar(c);
 	if (child == null) {
-	    child = new Char(c);
-	    this.getUnderlyingState().createRelationshipTo(
-		    child.getUnderlyingState(), RelationshipType.CHILD);
+	    child = this.addCharSimple(c);
 	}
+	return child;
+    }
+
+    @Transactional
+    public Char addCharSimple(Character c) {
+	Char child = new Char(c, this.wordIndex + c);
+	this.getUnderlyingState().createRelationshipTo(
+		child.getUnderlyingState(), RelationshipType.CHILD);
 	return child;
     }
 
