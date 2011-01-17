@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.graph.neo4j.finder.FinderFactory;
 import org.springframework.transaction.annotation.Transactional;
 
-import de.mpg.mis.neuesbibliothekssystem.misTree.domain.DBSet;
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.Root;
+import de.mpg.mis.neuesbibliothekssystem.misTree.helper.Permutation;
 import de.mpg.mis.neuesbibliothekssystem.misTree.helper.TreeHelper;
 
 public class Start {
@@ -24,22 +24,35 @@ public class Start {
     @Autowired
     private IndexService indexService;
 
-    @Transactional
+    @Autowired
+    private Permutation permutation;
+
+    // @Transactional
     public void demo() {
-	Root r = new Root();
+	long t = System.currentTimeMillis();
+	Root r = this.generateRoot();
 
-	r.addChar('a').addChar('b').addPosition(1, 1)
-		.addDomainObjects(1l, 1l, 1l, 1l, 1l).addSet(1l);
-	r.addChar('b').addSet(1l);
-	r.addChar('a').addChar('b').addChar('c');
+	// String s = "abcdefghijkl";
+	// String s = "abcde";
+	// String s = "abcdef";
+	// String s = "abcdefg";
+	// String s = "abcdefgh";
+	String s = "abcdefghij";
 
-	Iterable<DBSet> result = finderFactory.getFinderForClass(DBSet.class)
-		.findAllByPropertyValue(DBSet.INDEX_NAME,
-			DBSet.getIndexString(1l));
+	permutation.perm1(s, r);
 
-	for (DBSet s : result) {
-	    System.out.println(s.getId() + ":" + s.getValue());
-	}
+	// r.addChar('a').addChar('b').addPosition(1, 1)
+	// .addDomainObjects(1l, 1l, 1l, 1l, 1l).addSet(1l);
+	// r.addChar('b').addSet(1l);
+	// r.addChar('a').addChar('b').addChar('c');
+	//
+	// Iterable<DBSet> result = finderFactory.getFinderForClass(DBSet.class)
+	// .findAllByPropertyValue(DBSet.INDEX_NAME,
+	// DBSet.getIndexString(1l));
+	//
+	// for (DBSet s : result) {
+	// System.out.println(s.getId() + ":" + s.getValue());
+	// }
 
 	// for (Path p : treeHelper.buildSetTraversal().traverse(
 	// r.getUnderlyingState())) {
@@ -56,5 +69,17 @@ public class Start {
 	// System.out.println("-----------");
 	// System.out.println();
 	// }
+	System.out.println("Aktion beendet nach "
+		+ (System.currentTimeMillis() - t) + "ms");
     }
+
+    public void fillTree(Root tree) {
+
+    }
+
+    @Transactional
+    public Root generateRoot() {
+	return new Root();
+    }
+
 }

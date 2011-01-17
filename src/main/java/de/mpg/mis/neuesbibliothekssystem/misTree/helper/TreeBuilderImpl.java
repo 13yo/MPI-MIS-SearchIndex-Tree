@@ -1,10 +1,15 @@
 package de.mpg.mis.neuesbibliothekssystem.misTree.helper;
 
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char;
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.Position;
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.Root;
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.Tree;
+import de.mpg.mis.neuesbibliothekssystem.misTree.domain.stereotypes.CharAware;
 
+@Service
 public class TreeBuilderImpl implements TreeBuilder {
 
     @Override
@@ -14,9 +19,13 @@ public class TreeBuilderImpl implements TreeBuilder {
     }
 
     @Override
-    public Char addWordToTree(String word, Root tree) {
-	// TODO Auto-generated method stub
-	return null;
+    @Transactional
+    public CharAware addWordToTree(String word, Root tree) {
+	CharAware c = tree;
+	for (int i = 0; i < word.length(); i++) {
+	    c = c.addChar(word.charAt(i));
+	}
+	return c;
     }
 
     @Override
