@@ -79,7 +79,7 @@ public class Start {
 
     @Transactional
     public Root generateRoot() {
-	return new Root();
+	return new Root().persist();
     }
 
 }
