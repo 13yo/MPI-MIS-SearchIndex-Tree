@@ -91,7 +91,8 @@ public class Position extends Tree<Integer> implements DomainObjectAware {
 	DomainObject o = null;
 	NodeBacked tree = (NodeBacked) this;
 	for (int i = 0; i < domainObjects.length; i++) {
-	    o = new DomainObject(domainObjects[i], DomainObjectType.values()[i]);
+	    o = new DomainObject(domainObjects[i], DomainObjectType.values()[i])
+		    .persist();
 	    tree.relateTo(o, "DOMAIN_OBJECT");
 	    tree = o;
 	}

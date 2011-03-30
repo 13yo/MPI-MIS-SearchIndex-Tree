@@ -27,7 +27,7 @@ public abstract class Tree<T> extends IndexNode<T> {
 	NodeBacked tree = (NodeBacked) this;
 	for (int i = 0; i < ids.length; i++) {
 	    if (getDBSet(ids[i]) == null) {
-		DBSet s = new DBSet(ids[i]);
+		DBSet s = new DBSet(ids[i]).persist();
 		tree.relateTo(s, "SET");
 	    }
 	}
