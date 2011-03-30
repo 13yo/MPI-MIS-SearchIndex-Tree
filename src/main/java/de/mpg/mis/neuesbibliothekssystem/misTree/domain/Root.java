@@ -62,8 +62,7 @@ public class Root extends Tree<Character> implements CharAware {
     @Transactional
     public Char addCharSimple(Character c) {
 	Char child = new Char(c);
-	this.getUnderlyingState().createRelationshipTo(
-		child.getUnderlyingState(), RelationshipType.CHILD);
+	this.relateTo(child, "CHILD");
 	return child;
     }
 

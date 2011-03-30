@@ -22,8 +22,7 @@ public abstract class DomainObjectAwareTree<T> extends Tree<T> implements
 	NodeBacked tree = (NodeBacked) this;
 	for (int i = 0; i < domainObjects.length; i++) {
 	    o = new DomainObject(domainObjects[i], DomainObjectType.values()[i]);
-	    tree.getUnderlyingState().createRelationshipTo(
-		    o.getUnderlyingState(), RelationshipType.DOMAIN_OBJECT);
+	    tree.relateTo(o, "DOMAIN_OBJECT");
 	    tree = (NodeBacked) o;
 	}
 

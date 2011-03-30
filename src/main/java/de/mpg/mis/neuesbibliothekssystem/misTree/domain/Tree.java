@@ -28,8 +28,7 @@ public abstract class Tree<T> extends IndexNode<T> {
 	for (int i = 0; i < ids.length; i++) {
 	    if (getDBSet(ids[i]) == null) {
 		DBSet s = new DBSet(ids[i]);
-		tree.getUnderlyingState().createRelationshipTo(
-			s.getUnderlyingState(), RelationshipType.SET);
+		tree.relateTo(s, "SET");
 	    }
 	}
     }

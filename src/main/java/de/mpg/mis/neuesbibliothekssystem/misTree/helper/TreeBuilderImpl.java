@@ -30,8 +30,8 @@ public class TreeBuilderImpl implements TreeBuilder {
 	CharAware c = null;
 	String rest = "";
 	for (;;) {
-	    c = finderFactory.getFinderForClass(Char.class)
-		    .findByPropertyValue("wordIndex", word);
+	    c = finderFactory.createNodeEntityFinder(Char.class)
+		    .findByPropertyValue(null, "wordIndex", word);
 	    if (c != null)
 		break;
 

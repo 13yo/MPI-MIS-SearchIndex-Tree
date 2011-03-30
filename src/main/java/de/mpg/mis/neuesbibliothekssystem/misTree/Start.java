@@ -1,7 +1,6 @@
 package de.mpg.mis.neuesbibliothekssystem.misTree;
 
 import org.neo4j.graphdb.GraphDatabaseService;
-import org.neo4j.index.IndexService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.graph.neo4j.finder.FinderFactory;
 import org.springframework.transaction.annotation.Transactional;
@@ -25,9 +24,6 @@ public class Start {
 
     @Autowired
     private GraphDatabaseService graphDbService;
-
-    @Autowired
-    private IndexService indexService;
 
     @Autowired
     private Permutation permutation;

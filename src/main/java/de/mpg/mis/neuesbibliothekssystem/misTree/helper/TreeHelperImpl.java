@@ -33,7 +33,8 @@ public class TreeHelperImpl implements TreeHelper {
 
     private <T extends NodeBacked> T createEntityFromState(Node node,
 	    Class<T> type) {
-	return finderFactory.getFinderForClass(type).findById(node.getId());
+	return finderFactory.createNodeEntityFinder(type)
+		.findById(node.getId());
     }
 
     public TraversalDescription buildSetTraversal() {

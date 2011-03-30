@@ -86,8 +86,7 @@ public class Char extends Tree<Character> implements CharAware,
 	NodeBacked tree = (NodeBacked) this;
 	for (int i = 0; i < positions.length; i++) {
 	    p = new Position(positions[i], PositionType.values()[i]);
-	    tree.getUnderlyingState().createRelationshipTo(
-		    p.getUnderlyingState(), RelationshipType.POSITION);
+	    tree.relateTo(p, "POSITION");
 	    tree = p;
 	}
 
@@ -116,8 +115,7 @@ public class Char extends Tree<Character> implements CharAware,
     @Transactional
     public Char addCharSimple(Character c) {
 	Char child = new Char(c, this.wordIndex + c);
-	this.getUnderlyingState().createRelationshipTo(
-		child.getUnderlyingState(), RelationshipType.CHILD);
+	this.relateTo(child, "CHILD");
 	return child;
     }
 
@@ -134,8 +132,7 @@ public class Char extends Tree<Character> implements CharAware,
 	NodeBacked tree = (NodeBacked) this;
 	for (int i = 0; i < domainObjects.length; i++) {
 	    o = new DomainObject(domainObjects[i], DomainObjectType.values()[i]);
-	    tree.getUnderlyingState().createRelationshipTo(
-		    o.getUnderlyingState(), RelationshipType.DOMAIN_OBJECT);
+	    tree.relateTo(o, "DOMAIN_OBJECT");
 	    tree = (NodeBacked) o;
 	}
 
