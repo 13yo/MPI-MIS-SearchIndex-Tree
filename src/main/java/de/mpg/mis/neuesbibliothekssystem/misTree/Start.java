@@ -29,7 +29,7 @@ public class Start {
     private Permutation permutation;
 
     // @Transactional
-    public void demo() {
+    public void demo(String s) {
 	long t = System.currentTimeMillis();
 	Root r = this.generateRoot();
 
@@ -38,8 +38,10 @@ public class Start {
 	// String s = "abcdef";
 	// String s = "abcdefg";
 	// String s = "abcdefgh";
-	String s = "abcdefgh";
+	// String s = "abcdefghi";
 	permutation.perm1(s, r);
+	System.out.println("Aktion beendet nach "
+		+ (System.currentTimeMillis() - t) + "ms");
 
 	// r.addChar('a').addChar('b').addPosition(1, 1)
 	// .addDomainObjects(1l, 1l, 1l, 1l, 1l).addSet(1l);
