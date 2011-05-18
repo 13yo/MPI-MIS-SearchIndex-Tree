@@ -40,8 +40,6 @@ public class Start {
 	// String s = "abcdefgh";
 	// String s = "abcdefghi";
 	permutation.perm1(s, r);
-	System.out.println("Aktion beendet nach "
-		+ (System.currentTimeMillis() - t) + "ms");
 
 	// r.addChar('a').addChar('b').addPosition(1, 1)
 	// .addDomainObjects(1l, 1l, 1l, 1l, 1l).addSet(1l);
