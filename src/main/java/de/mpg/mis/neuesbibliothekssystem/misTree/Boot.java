@@ -12,11 +12,12 @@ public class Boot {
 	ApplicationContext ctx = new ClassPathXmlApplicationContext(
 		"classpath*:META-INF/applicationContext.xml");
 	Start s = (Start) ctx.getBean("start");
-	String testString = args[0];
+	String testString = "abcde";
 
 	System.out.println("Teste App mit String " + testString);
 	try {
 	    s.demo(testString);
+
 	    System.exit(0);
 	} catch (Exception e) {
 	    // TODO Auto-generated catch block

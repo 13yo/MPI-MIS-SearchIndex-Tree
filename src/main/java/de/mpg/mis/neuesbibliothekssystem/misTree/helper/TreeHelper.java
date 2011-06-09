@@ -10,4 +10,6 @@ public interface TreeHelper {
 
     public TraversalDescription buildSetTraversal();
 
+    public TraversalDescription demo(String w);
+
 }

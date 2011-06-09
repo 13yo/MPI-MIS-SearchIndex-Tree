@@ -7,7 +7,7 @@ import org.springframework.data.graph.annotation.NodeEntity;
 import org.springframework.data.graph.annotation.RelatedTo;
 import org.springframework.data.graph.core.Direction;
 import org.springframework.data.graph.core.NodeBacked;
-import org.springframework.data.annotation.Indexed;
+import org.springframework.data.graph.neo4j.annotation.Indexed;
 import org.springframework.transaction.annotation.Transactional;
 
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.stereotypes.CharAware;
@@ -101,6 +101,10 @@ public class Char extends Tree<Character> implements CharAware,
 		return child;
 	}
 	return null;
+    }
+
+    public String getWordIndex() {
+	return this.wordIndex;
     }
 
     @Transactional

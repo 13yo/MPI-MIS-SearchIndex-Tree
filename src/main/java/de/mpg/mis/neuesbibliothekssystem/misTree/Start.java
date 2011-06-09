@@ -2,7 +2,6 @@ package de.mpg.mis.neuesbibliothekssystem.misTree;
 
 import org.neo4j.graphdb.GraphDatabaseService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.graph.neo4j.finder.FinderFactory;
 import org.springframework.transaction.annotation.Transactional;
 
 import org.neo4j.graphdb.Path;
@@ -13,6 +12,9 @@ import org.neo4j.graphdb.Direction;
 import de.mpg.mis.neuesbibliothekssystem.misTree.domain.Root;
 import de.mpg.mis.neuesbibliothekssystem.misTree.helper.Permutation;
 import de.mpg.mis.neuesbibliothekssystem.misTree.helper.TreeHelper;
+import de.mpg.mis.neuesbibliothekssystem.misTree.domain.repos.CharRepository;
+
+import de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char;
 
 public class Start {
 
@@ -20,13 +22,13 @@ public class Start {
     private TreeHelper treeHelper;
 
     @Autowired
-    private FinderFactory finderFactory;
-
-    @Autowired
     private GraphDatabaseService graphDbService;
 
     @Autowired
     private Permutation permutation;
+
+    @Autowired
+    private CharRepository charRepository;
 
     // @Transactional
     public void demo(String s) {
@@ -40,6 +42,9 @@ public class Start {
 	// String s = "abcdefgh";
 	// String s = "abcdefghi";
 	permutation.perm1(s, r);
+
+	System.out.println("Aktion beendet nach "
+		+ (System.currentTimeMillis() - t) + "ms");
 
 	// r.addChar('a').addChar('b').addPosition(1, 1)
 	// .addDomainObjects(1l, 1l, 1l, 1l, 1l).addSet(1l);
@@ -69,6 +74,19 @@ public class Start {
 	// System.out.println("-----------");
 	// System.out.println();
 	// }
+	searchTree("abcde", r);
+	searchTree("abdce", r);
+	searchTree("edcba", r);
+	searchTree("aaaaaa", r);
+    }
+
+    public void searchTree(String s, Root r) {
+	long t = System.currentTimeMillis();
+	Iterable<Char> it = charRepository.findAllByTraversal(r,
+		treeHelper.demo(s));
+	for (Char c : it) {
+	    System.out.println(c.getWordIndex());
+	}
 	System.out.println("Aktion beendet nach "
 		+ (System.currentTimeMillis() - t) + "ms");
     }

@@ -7,12 +7,13 @@
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <spring.version>3.0.4.RELEASE</spring.version>
+    <spring.version>3.0.5.RELEASE</spring.version>
     <aspectj.version>1.6.11.RELEASE</aspectj.version>
     <slf4j.version>1.6.1</slf4j.version>
-    <datastore-graph.version>1.0.0.M5</datastore-graph.version>
+    <datastore-graph.version>1.0.0.RELEASE</datastore-graph.version>
     <neo4j.version>1.2</neo4j.version>
     <neo4j-kernel.version>1.1</neo4j-kernel.version>
+    <guava.version>r09</guava.version>
   </properties>
 
   <repositories>
@@ -140,6 +141,11 @@
       <artifactId>cglib-nodep</artifactId>
       <version>2.2</version>
     </dependency>
+    <dependency>
+    	<groupId>com.google.guava</groupId>
+    	<artifactId>guava</artifactId>
+    	<version>${guava.version}</version>
+	</dependency>
     
   </dependencies>
 

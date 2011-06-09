@@ -1,230 +1,244 @@
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15866]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15671]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\Daten\Java\Git-Repos\MPI-MIS-SearchIndex-Tree\target\classes\META-INF] for files matching pattern [D:/Daten/Java/Git-Repos/MPI-MIS-SearchIndex-Tree/target/classes/META-INF/*.properties]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/slf4j/jcl-over-slf4j/1.6.1/jcl-over-slf4j-1.6.1.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/springframework/spring-core/3.0.5.RELEASE/spring-core-3.0.5.RELEASE.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/springframework/spring-asm/3.0.5.RELEASE/spring-asm-3.0.5.RELEASE.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/springframework/spring-context/3.0.5.RELEASE/spring-context-3.0.5.RELEASE.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/springframework/spring-beans/3.0.5.RELEASE/spring-beans-3.0.5.RELEASE.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/springframework/spring-expression/3.0.5.RELEASE/spring-expression-3.0.5.RELEASE.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/springframework/spring-aop/3.0.5.RELEASE/spring-aop-3.0.5.RELEASE.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/springframework/spring-aspects/3.0.5.RELEASE/spring-aspects-3.0.5.RELEASE.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/springframework/spring-context-support/3.0.5.RELEASE/spring-context-support-3.0.5.RELEASE.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/springframework/spring-tx/3.0.5.RELEASE/spring-tx-3.0.5.RELEASE.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/springframework/data/spring-data-graph-core/1.0.0.RELEASE/spring-data-graph-core-1.0.0.RELEASE.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/springframework/data/spring-data-commons-core/1.0.0.RELEASE/spring-data-commons-core-1.0.0.RELEASE.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/springframework/data/spring-data-neo4j/1.0.0.RELEASE/spring-data-neo4j-1.0.0.RELEASE.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/springframework/spring-orm/3.0.5.RELEASE/spring-orm-3.0.5.RELEASE.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/springframework/spring-jdbc/3.0.5.RELEASE/spring-jdbc-3.0.5.RELEASE.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/aspectj/aspectjrt/1.6.11.RELEASE/aspectjrt-1.6.11.RELEASE.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/cglib/cglib/2.2/cglib-2.2.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/neo4j/neo4j/1.3/neo4j-1.3.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/neo4j/neo4j-kernel/1.3/neo4j-kernel-1.3.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/neo4j/neo4j-lucene-index/1.3/neo4j-lucene-index-1.3.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/apache/servicemix/bundles/org.apache.servicemix.bundles.lucene/3.0.1_2/org.apache.servicemix.bundles.lucene-3.0.1_2.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/neo4j/neo4j-graph-algo/1.3/neo4j-graph-algo-1.3.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/neo4j/neo4j-udc/1.3/neo4j-udc-1.3.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/neo4j/neo4j-jmx/1.3/neo4j-jmx-1.3.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/D:/Daten/Kram/Drop/My%20Dropbox/mvn/repository/com/google/guava/guava/r09/guava-r09.jar]
+DEBUG main org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:META-INF/*.properties] to resources [file [D:\Daten\Java\Git-Repos\MPI-MIS-SearchIndex-Tree\target\classes\META-INF\settings.properties]]
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+INFO main org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [D:\Daten\Java\Git-Repos\MPI-MIS-SearchIndex-Tree\target\classes\META-INF\settings.properties]
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.data.repository.support.RepositoryInterfaceAwareBeanPostProcessor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.data.repository.support.RepositoryInterfaceAwareBeanPostProcessor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.data.repository.support.RepositoryInterfaceAwareBeanPostProcessor#0' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.data.repository.support.RepositoryInterfaceAwareBeanPostProcessor#0'
+DEBUG main org.springframework.context.support.ClassPathXmlApplicationContext - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@8238f4]
+DEBUG main org.springframework.context.support.ClassPathXmlApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@71dc3d]
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'conversionService'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'conversionService'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0'
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Found injected element on class [org.springframework.data.graph.neo4j.config.Neo4jConfiguration$$EnhancerByCGLIB$$2d1d4e9f$$EnhancerByCGLIB$$55d3e001]: AutowiredFieldElement for private javax.validation.Validator org.springframework.data.graph.neo4j.config.Neo4jConfiguration.validator
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Found injected element on class [org.springframework.data.graph.neo4j.config.Neo4jConfiguration$$EnhancerByCGLIB$$2d1d4e9f$$EnhancerByCGLIB$$55d3e001]: AutowiredMethodElement for public void org.springframework.data.graph.neo4j.config.Neo4jConfiguration.setGraphDatabaseService(org.neo4j.graphdb.GraphDatabaseService)
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Found injected element on class [org.springframework.data.graph.neo4j.config.Neo4jConfiguration$$EnhancerByCGLIB$$2d1d4e9f$$EnhancerByCGLIB$$55d3e001]: AutowiredMethodElement for public void org.springframework.data.graph.neo4j.config.Neo4jConfiguration.setEntityManagerFactory(javax.persistence.EntityManagerFactory)
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected method of bean 'org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0': AutowiredFieldElement for private javax.validation.Validator org.springframework.data.graph.neo4j.config.Neo4jConfiguration.validator
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected method of bean 'org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0': AutowiredMethodElement for public void org.springframework.data.graph.neo4j.config.Neo4jConfiguration.setGraphDatabaseService(org.neo4j.graphdb.GraphDatabaseService)
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'graphDatabaseService'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'graphDatabaseService'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'graphDatabaseService' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'graphDatabaseService'
+DEBUG main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0' to bean named 'graphDatabaseService'
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected method of bean 'org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0': AutowiredMethodElement for public void org.springframework.data.graph.neo4j.config.Neo4jConfiguration.setEntityManagerFactory(javax.persistence.EntityManagerFactory)
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0'
+DEBUG main org.springframework.core.LocalVariableTableParameterNameDiscoverer - Cannot find '.class' file for class [class org.springframework.data.graph.neo4j.config.Neo4jConfiguration$$EnhancerByCGLIB$$2d1d4e9f] - unable to determine constructors/methods parameter names
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'conversionService' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'conversionService'
+INFO main org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7bb290: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,permutation,treeBuilderImpl,treeHelperImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.transaction.config.internalTransactionAspect,org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0,org.springframework.context.annotation.ConfigurationClassPostProcessor#0,graphDatabaseService,charRepository,org.springframework.data.repository.support.RepositoryInterfaceAwareBeanPostProcessor#0,start,graphDatabaseContext,conversionService,graphRelationshipInstantiator,graphEntityInstantiator,directGraphRepositoryFactory,neo4jRelationshipBacking,relationshipEntityStateFactory,neo4jNodeBacking,nodeEntityStateFactory,transactionManager,configurationCheck,persistenceExceptionTranslator]; root of factory hierarchy
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'permutation'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'permutation'
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Found injected element on class [de.mpg.mis.neuesbibliothekssystem.misTree.helper.Permutation]: AutowiredFieldElement for private de.mpg.mis.neuesbibliothekssystem.misTree.helper.TreeBuilder de.mpg.mis.neuesbibliothekssystem.misTree.helper.Permutation.treeBuilder
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'permutation' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected method of bean 'permutation': AutowiredFieldElement for private de.mpg.mis.neuesbibliothekssystem.misTree.helper.TreeBuilder de.mpg.mis.neuesbibliothekssystem.misTree.helper.Permutation.treeBuilder
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'treeBuilderImpl'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'treeBuilderImpl'
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Found injected element on class [de.mpg.mis.neuesbibliothekssystem.misTree.helper.TreeBuilderImpl]: AutowiredFieldElement for private de.mpg.mis.neuesbibliothekssystem.misTree.domain.repos.CharRepository de.mpg.mis.neuesbibliothekssystem.misTree.helper.TreeBuilderImpl.charRepository
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'treeBuilderImpl' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected method of bean 'treeBuilderImpl': AutowiredFieldElement for private de.mpg.mis.neuesbibliothekssystem.misTree.domain.repos.CharRepository de.mpg.mis.neuesbibliothekssystem.misTree.helper.TreeBuilderImpl.charRepository
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'charRepository'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'charRepository'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'charRepository' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'graphDatabaseContext'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'graphDatabaseContext'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'graphRelationshipInstantiator'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'graphRelationshipInstantiator'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'graphRelationshipInstantiator' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'graphRelationshipInstantiator'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'graphEntityInstantiator'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'graphEntityInstantiator'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'graphEntityInstantiator' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'graphEntityInstantiator'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'conversionService'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'graphDatabaseContext' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'graphDatabaseContext'
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value org.springframework.data.graph.neo4j.support.GraphDatabaseContext@1f6f27b of org.springframework.data.graph.neo4j.support.GraphDatabaseContext to org.springframework.data.graph.neo4j.support.GraphDatabaseContext
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to org.springframework.data.graph.neo4j.support.GraphDatabaseContext@1f6f27b
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value org.springframework.data.graph.neo4j.support.GraphDatabaseContext@1f6f27b of org.springframework.data.graph.neo4j.support.GraphDatabaseContext to org.springframework.data.graph.neo4j.support.GraphDatabaseContext
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to org.springframework.data.graph.neo4j.support.GraphDatabaseContext@1f6f27b
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'persistenceExceptionTranslator'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'persistenceExceptionTranslator'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'persistenceExceptionTranslator' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'persistenceExceptionTranslator'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'charRepository'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'charRepository'
+DEBUG main org.springframework.aop.framework.JdkDynamicAopProxy - Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [org.springframework.data.graph.neo4j.repository.NodeGraphRepository@46b90a]
+DEBUG main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'treeBuilderImpl' to bean named 'charRepository'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'treeBuilderImpl'
+DEBUG main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'permutation' to bean named 'treeBuilderImpl'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'permutation'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'treeBuilderImpl'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'treeHelperImpl'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'treeHelperImpl'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'treeHelperImpl' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'treeHelperImpl'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAspect'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.transaction.config.internalTransactionAspect'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.transaction.config.internalTransactionAspect' to allow for resolving potential circular references
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value 'transactionManager' of java.lang.String to java.lang.String
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to 'transactionManager'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.transaction.config.internalTransactionAspect'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.transaction.config.internalTransactionAspect'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'graphDatabaseService'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'charRepository'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.data.repository.support.RepositoryInterfaceAwareBeanPostProcessor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'start'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'start'
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Found injected element on class [de.mpg.mis.neuesbibliothekssystem.misTree.Start]: AutowiredFieldElement for private de.mpg.mis.neuesbibliothekssystem.misTree.helper.TreeHelper de.mpg.mis.neuesbibliothekssystem.misTree.Start.treeHelper
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Found injected element on class [de.mpg.mis.neuesbibliothekssystem.misTree.Start]: AutowiredFieldElement for private org.neo4j.graphdb.GraphDatabaseService de.mpg.mis.neuesbibliothekssystem.misTree.Start.graphDbService
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Found injected element on class [de.mpg.mis.neuesbibliothekssystem.misTree.Start]: AutowiredFieldElement for private de.mpg.mis.neuesbibliothekssystem.misTree.helper.Permutation de.mpg.mis.neuesbibliothekssystem.misTree.Start.permutation
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Found injected element on class [de.mpg.mis.neuesbibliothekssystem.misTree.Start]: AutowiredFieldElement for private de.mpg.mis.neuesbibliothekssystem.misTree.domain.repos.CharRepository de.mpg.mis.neuesbibliothekssystem.misTree.Start.charRepository
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'start' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected method of bean 'start': AutowiredFieldElement for private de.mpg.mis.neuesbibliothekssystem.misTree.helper.TreeHelper de.mpg.mis.neuesbibliothekssystem.misTree.Start.treeHelper
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'treeHelperImpl'
+DEBUG main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'start' to bean named 'treeHelperImpl'
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected method of bean 'start': AutowiredFieldElement for private org.neo4j.graphdb.GraphDatabaseService de.mpg.mis.neuesbibliothekssystem.misTree.Start.graphDbService
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'graphDatabaseService'
+DEBUG main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'start' to bean named 'graphDatabaseService'
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected method of bean 'start': AutowiredFieldElement for private de.mpg.mis.neuesbibliothekssystem.misTree.helper.Permutation de.mpg.mis.neuesbibliothekssystem.misTree.Start.permutation
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'permutation'
+DEBUG main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'start' to bean named 'permutation'
+DEBUG main org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected method of bean 'start': AutowiredFieldElement for private de.mpg.mis.neuesbibliothekssystem.misTree.domain.repos.CharRepository de.mpg.mis.neuesbibliothekssystem.misTree.Start.charRepository
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'charRepository'
+DEBUG main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'start' to bean named 'charRepository'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'start'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'graphDatabaseContext'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'conversionService'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'graphRelationshipInstantiator'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'graphEntityInstantiator'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'directGraphRepositoryFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'directGraphRepositoryFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'graphDatabaseContext'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'directGraphRepositoryFactory' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'directGraphRepositoryFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'neo4jRelationshipBacking'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'neo4jRelationshipBacking'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'graphDatabaseContext'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'relationshipEntityStateFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'relationshipEntityStateFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'graphDatabaseContext'
+DEBUG main org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Found init method on class [org.springframework.data.graph.neo4j.support.relationship.RelationshipEntityStateFactory]: private void org.springframework.data.graph.neo4j.support.relationship.RelationshipEntityStateFactory.setUp()
+DEBUG main org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Found init method on class [org.springframework.data.graph.neo4j.support.relationship.RelationshipEntityStateFactory]: org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement@1e9f71e5
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'relationshipEntityStateFactory' to allow for resolving potential circular references
+DEBUG main org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Invoking init method on bean 'relationshipEntityStateFactory': private void org.springframework.data.graph.neo4j.support.relationship.RelationshipEntityStateFactory.setUp()
+DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [org.springframework.data.graph.neo4j.fieldaccess.ConvertingNodePropertyFieldAccessorFactory]. Proceeding without injection.
+DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [org.springframework.data.graph.neo4j.fieldaccess.ConvertingNodePropertyFieldAccessorFactory]. Proceeding without injection.
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'relationshipEntityStateFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'neo4jRelationshipBacking' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'neo4jRelationshipBacking'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'relationshipEntityStateFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'neo4jNodeBacking'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'neo4jNodeBacking'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'graphDatabaseContext'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'nodeEntityStateFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'nodeEntityStateFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'graphDatabaseContext'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'directGraphRepositoryFactory'
+DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [org.springframework.data.graph.neo4j.fieldaccess.ConvertingNodePropertyFieldAccessorFactory]. Proceeding without injection.
+DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [org.springframework.data.graph.neo4j.fieldaccess.ConvertingNodePropertyFieldAccessorFactory]. Proceeding without injection.
+DEBUG main org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Found init method on class [org.springframework.data.graph.neo4j.support.node.NodeEntityStateFactory]: private void org.springframework.data.graph.neo4j.support.node.NodeEntityStateFactory.setUp()
+DEBUG main org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Found init method on class [org.springframework.data.graph.neo4j.support.node.NodeEntityStateFactory]: org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement@bcff0e25
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'nodeEntityStateFactory' to allow for resolving potential circular references
+DEBUG main org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Invoking init method on bean 'nodeEntityStateFactory': private void org.springframework.data.graph.neo4j.support.node.NodeEntityStateFactory.setUp()
+DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [org.springframework.data.graph.neo4j.support.node.PartialNodeEntityState$PartialNodeDelegatingFieldAccessorFactory$3]. Proceeding without injection.
+DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [org.springframework.data.graph.neo4j.support.node.PartialNodeEntityState$PartialNodeDelegatingFieldAccessorFactory$3]. Proceeding without injection.
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'nodeEntityStateFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'neo4jNodeBacking' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'neo4jNodeBacking'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'nodeEntityStateFactory'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'transactionManager'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'transactionManager'
+INFO main org.springframework.transaction.jta.JtaTransactionManager - Using JTA UserTransaction: org.neo4j.kernel.impl.transaction.UserTransactionImpl@1700391
+INFO main org.springframework.transaction.jta.JtaTransactionManager - Using JTA TransactionManager: org.neo4j.kernel.impl.transaction.SpringTransactionManager@fa39d7
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'transactionManager'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'configurationCheck'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'configurationCheck'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'graphDatabaseContext'
 DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Found init method on class [org.springframework.data.graph.neo4j.config.ConfigurationCheck]: private void org.springframework.data.graph.neo4j.config.ConfigurationCheck.checkConfiguration()
+DEBUG main org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Found init method on class [org.springframework.data.graph.neo4j.config.ConfigurationCheck]: org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement@431cd1f3
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'configurationCheck' to allow for resolving potential circular references
+DEBUG main org.springframework.context.annotation.CommonAnnotationBeanPostProcessor - Invoking init method on bean 'configurationCheck': private void org.springframework.data.graph.neo4j.config.ConfigurationCheck.checkConfiguration()
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'configurationCheck'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'persistenceExceptionTranslator'
+DEBUG main org.springframework.context.support.ClassPathXmlApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@143bf3d]
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'start'
+DEBUG main org.springframework.transaction.annotation.AnnotationTransactionAttributeSource - Adding transactional method 'generateRoot' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
 DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15932]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15933]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15938]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15943]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15944]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityStateAccessors - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char; created Node [Node[15946]]; Updating metamodel
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[7] with type: de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Tree = 15941
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[4] for class IndexNode = 15941
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[5] for class Object = 15941
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityStateAccessors - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char; created Node [Node[15947]]; Updating metamodel
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[7] with type: de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Tree = 15942
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[4] for class IndexNode = 15942
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[5] for class Object = 15942
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[6]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[8]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[9]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[10]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[11]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[13711]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[13712]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15669]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15670]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15736]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15931]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15801]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15866]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15671]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15932]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityStateAccessors - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char; created Node [Node[15948]]; Updating metamodel
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[7] with type: de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Tree = 15943
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[4] for class IndexNode = 15943
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[5] for class Object = 15943
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityStateAccessors - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char; created Node [Node[15949]]; Updating metamodel
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[7] with type: de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Tree = 15944
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[4] for class IndexNode = 15944
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[5] for class Object = 15944
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityStateAccessors - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char; created Node [Node[15950]]; Updating metamodel
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[7] with type: de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Tree = 15945
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[4] for class IndexNode = 15945
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[5] for class Object = 15945
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityStateAccessors - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char; created Node [Node[15951]]; Updating metamodel
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[7] with type: de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Tree = 15946
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[4] for class IndexNode = 15946
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[5] for class Object = 15946
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[6]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[8]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[9]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[10]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[11]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[13711]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[13712]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15669]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15670]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15736]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15931]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15801]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15866]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15671]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15932]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15948]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15949]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class Char for node: Node[15950]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char no-arg constructor
-INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityStateAccessors - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char; created Node [Node[15952]]; Updating metamodel
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[7] with type: de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Tree = 15947
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[4] for class IndexNode = 15947
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[5] for class Object = 15947
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityStateAccessors - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char; created Node [Node[15953]]; Updating metamodel
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[7] with type: de.mpg.mis.neuesbibliothekssystem.misTree.domain.Char
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Tree = 15948
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Creating new transaction with name [de.mpg.mis.neuesbibliothekssystem.misTree.Start.generateRoot]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Initiating transaction rollback
